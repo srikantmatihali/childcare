@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !\.(css|gif|ico|jpg|js|png|swf|txt)$
+RewriteRule ^rate/([a-zA-Z0-9_-]+)/?$ rate.php?id=$1 [QSA]
+RewriteRule ^analytics/(.*)/(.*)$ analytics.php?id=$1&othermode=$2
+RewriteRule ^dailyreport/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)?$ dailyreport.php?date=$1&sid=$2 [QSA]
+RewriteRule ^overall/([a-zA-Z0-9_-]+)/?$ overall.php?id=$1 [QSA]
