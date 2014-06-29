@@ -31,4 +31,17 @@ By this all data pertaining to students from a school is directly synced with ce
 
 PHASE III
 
-The data collected can be shown using graphs / pdf's / excel sheets. Data can be mined and shown in different formats. 
+The data collected can be shown using graphs / pdf's / excel sheets. Data can be mined and shown in different formats.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Programming languages: 
+javascript; html5; php;
+
+Frameworks: 
+jQuery
+End user environments: 
+Web
+Mobile
+
+Server requirements: 
+PHP with mysql enabled server (Need php gd library to be enabled)
