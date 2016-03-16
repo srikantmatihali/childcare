@@ -57,6 +57,3 @@ http://www.rhok.org/solutions/childcare-track-freebies-foodclothingscholarshihps
 
 Video Demo:
 https://www.youtube.com/watch?v=tKXnRsnjXxQ
-
-Working Demo
-http://ultipint.96.lt/rhok/
